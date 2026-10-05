@@ -1,5 +1,3 @@
-はい。GitHubのREADME冒頭にそのまま貼れる形なら、こんな感じがよいと思います。
-
 ```markdown
 # PS RTTY PRINTER
 
