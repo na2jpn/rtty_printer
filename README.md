@@ -8,6 +8,7 @@ XIAO ESP32S3と58mmサーマルプリンターを使用した、アマチュア�
 昔の機械式RTTYテレプリンターを、現代のマイコンとサーマルプリンターで小型化して再現することを目的とした実験機です。
 
 ![PS RTTY PRINTER 回路図](10_rttyprinter.pdf)
+https://github.com/na2jpn/rtty_printer/blob/main/10_rttyprinter(R1.2).pdf
 
 ## 主な仕様
 
