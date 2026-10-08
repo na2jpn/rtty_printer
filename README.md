@@ -1,4 +1,4 @@
-```markdown
+
 # PS RTTY PRINTER
 
 XIAO ESP32S3と58mmサーマルプリンターを使用した、アマチュア無線RTTY受信用の小型テレプリンターです。
@@ -25,6 +25,9 @@ XIAO ESP32S3と58mmサーマルプリンターを使用した、アマチュア�
 - FEEDボタン
 - MODEボタン
 - RTTY受信状態LED
+
+試用品：　https://www.amazon.co.jp/dp/B0CL6QBJ8T?
+Model EM5820
 
 ## 動作モード
 
@@ -53,8 +56,8 @@ TTL: 9600 8N1
 RTTY: 45.45 / 170
 MARK 2125 / SPACE 2295
 MODE: AUDIO NORMAL
-READY
-```
+READY```
+
 
 RTTYを受信すると文字を内部バッファへ蓄積し、改行または一定時間の無信号を検出すると1行ずつ印刷します。
 
