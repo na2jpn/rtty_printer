@@ -1,4 +1,4 @@
-```markdown
+
 # PS RTTY PRINTER
 
 XIAO ESP32S3と58mmサーマルプリンターを使用した、アマチュア無線RTTY受信用の小型テレプリンターです。
@@ -8,6 +8,7 @@ XIAO ESP32S3と58mmサーマルプリンターを使用した、アマチュア�
 昔の機械式RTTYテレプリンターを、現代のマイコンとサーマルプリンターで小型化して再現することを目的とした実験機です。
 
 ![PS RTTY PRINTER 回路図](10_rttyprinter.pdf)
+https://github.com/na2jpn/rtty_printer/blob/main/10_rttyprinter(R1.2).pdf
 
 ## 主な仕様
 
@@ -25,6 +26,9 @@ XIAO ESP32S3と58mmサーマルプリンターを使用した、アマチュア�
 - FEEDボタン
 - MODEボタン
 - RTTY受信状態LED
+
+試用品：　https://www.amazon.co.jp/dp/B0CL6QBJ8T?
+Model EM5820
 
 ## 動作モード
 
@@ -53,8 +57,8 @@ TTL: 9600 8N1
 RTTY: 45.45 / 170
 MARK 2125 / SPACE 2295
 MODE: AUDIO NORMAL
-READY
-```
+READY```
+
 
 RTTYを受信すると文字を内部バッファへ蓄積し、改行または一定時間の無信号を検出すると1行ずつ印刷します。
 
@@ -126,6 +130,3 @@ PS RTTY PRINTERは、そのような古典的なRTTYテレプリンターの考�
 使用する無線機、音声出力レベル、プリンターモジュールによって受信感度や動作条件が異なる場合があります。
 ```
 
-これくらいがちょうどいいと思います。
-
-特に最後の **1921年 Morkrum → 2026年 XIAO ESP32S3** の話は、このプロジェクトの面白さがかなり伝わるので、READMEに残しておきたいです。
