@@ -1,4 +1,23 @@
 /*
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ * Copyright (c) 2026 Hiroshi Tanaka (JH1HST)
+ * PS Ham-ware / AKIHABARA-GIKEN
+ *
+ * This firmware is free software: you may redistribute it and/or modify it
+ * under the GNU General Public License as published by the Free Software
+ * Foundation, either version 3, or (at your option) any later version.
+ *
+ * This firmware is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ *
+ * See LICENSE.md for the GPL text and LICENSING.md for the licensing guide.
+ * If you did not receive the GPL text, see <https://www.gnu.org/licenses/>.
+ * Source: https://github.com/na2jpn/rtty_printer
+ */
+
+/*
   PS RTTY PRINTER
   Target: Seeed Studio XIAO ESP32S3
   FW: 1.00

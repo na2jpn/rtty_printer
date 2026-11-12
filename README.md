@@ -7,6 +7,27 @@ XIAO ESP32S3と58mmサーマルプリンターを使用した、アマチュア�
 
 昔の機械式RTTYテレプリンターを、現代のマイコンとサーマルプリンターで小型化して再現することを目的とした実験機です。
 
+## 著作権・ライセンス / License
+
+Copyright (c) 2026 Hiroshi Tanaka (JH1HST)
+
+PS Ham-ware / AKIHABARA-GIKEN — [na2jpn](https://github.com/na2jpn)
+
+本リポジトリのファームウェア（v1.01・v1.02 RXFIX）、回路図、および付属ドキュメントのうち、当方が著作権を有し、別の表示がない著作物には **GNU GPL v3以降（GPL-3.0-or-later）** を適用します。
+
+営利・非営利を問わず利用・改変・再配布できます。再配布時はGPLに従って著作権・ライセンス等の必要な表示を保持し、改変版では改変と日付を明示してください。ファームウェアのバイナリを配布する場合は、対応するソースとビルドに必要なスクリプト等をGPLに定める方法で取得できるようにしてください。改良版の公開連絡は任意です。事前承認や実名の提出は条件ではありません。
+
+- [GPL英文全文 / Full license](LICENSE.md)
+- [共通方針・日英説明 / Licensing guide](LICENSING.md)
+- ソースコード / Source: https://github.com/na2jpn/rtty_printer
+- 公式サイト / Website: https://2jp.org/ps/
+
+Firmware and our original schematics and documentation are licensed under **GPL-3.0-or-later**, unless otherwise stated. Commercial use, modification and redistribution are permitted under the GPL. When distributing binaries, provide access to Corresponding Source as required by the GPL. Notification is voluntary.
+
+第三者ライブラリ、ボード定義、メーカーの資料等には、それぞれのライセンス・権利が引き続き適用されます。本共通方針はそれらを再ライセンスするものではありません。ソース・バイナリを配布するときは、LICENSE.md・LICENSING.mdと、必要な第三者ライセンス・通知も同梱してください。
+
+適用法令とGPLの定める範囲で無保証です。詳細は上記文書をご確認ください。
+
 ![PS RTTY PRINTER 回路図](10_rttyprinter.pdf)
 https://github.com/na2jpn/rtty_printer/blob/main/10_rttyprinter(R1.2).pdf
 
